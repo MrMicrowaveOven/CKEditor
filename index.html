@@ -9,20 +9,25 @@
   </head>
   <body>
     <div class="description">
-    Empty description
+    <!-- Empty description -->
     </div>
     <div class="application">
-      <br>
+      <textarea name="editor1" id="editor1" rows="8" cols="80"></textarea>
+      <!-- <br>
       <label class="field">Empty field
       </label>
 
       <button class="button inheritFont">Blank button</button>
-      <div class="response" id="response"></div>
+      <div class="response" id="response"></div> -->
     </div>
     <div class= "portfolioLinks" id="portfolioLinks">
       Written by Benjamin Zagorski.
       <br>
       Click <a href="https://github.com/MrMicrowaveOven/Credits"> here</a> for the github repo.
     </div>
+    <script src="ckeditor/ckeditor.js"></script>
+    <script type="text/javascript">
+      CKEDITOR.replace( 'editor1' );
+    </script>
   </body>
 </html>
