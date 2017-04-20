@@ -17,4 +17,5 @@ CKEDITOR.editorConfig = function( config ) {
 	];
 
 	config.removeButtons = 'Underline,Subscript,Superscript,Cut,Copy,Paste,PasteText,PasteFromWord,Undo,Redo,Scayt,Link,Image,Table,Unlink,Anchor,HorizontalRule,SpecialChar,Maximize,Source,Bold,Italic,Strike,RemoveFormat,NumberedList,BulletedList,Outdent,Indent,Blockquote,Styles,About,Format';
+	config.extraPlugins = 'meetingtemplate';
 };
